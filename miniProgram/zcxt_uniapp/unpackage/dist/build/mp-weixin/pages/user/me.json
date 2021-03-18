@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "index-bar": "/components/custom/index-bar",
+    "tui-footer": "/components/thorui/footer/footer",
+    "tui-modal": "/components/thorui/modal/modal",
+    "tui-button": "/components/thorui/button/button",
+    "tui-tips": "/components/thorui/tips/tips",
+    "switchc": "/components/custom/switchc",
+    "tui-icon": "/components/thorui/icon/icon"
+  }
+}

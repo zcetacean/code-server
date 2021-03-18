@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/user/login",
+    "pages/user/teacher",
+    "pages/user/index",
+    "pages/user/guide",
+    "pages/user/code",
+    "pages/user/me"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "color": "#ffffff",
+    "selectedColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/user/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/user/me",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

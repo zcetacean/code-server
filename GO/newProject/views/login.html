@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/login.css">
+    <link rel="stylesheet" href="../static/css/base.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>登录页面</h1>
+    <form name="login" class="login" method="POST" action="/login">
+        <label for="uuid">
+            <input type="text" class="uuid" name="uuid" placeholder="请输入账号">
+        </label><br>
+        <label for="password">
+            <input type="password" class="pwd" name="pwd" placeholder="请输入密码">
+        </label><br>
+        <input type="submit" class="sub" value="提 交">
+        <span>{{.wrong}}</span>
+    </form>
+
+    <!-- <p class="uuid" style="color: red;">{{.uuid}}</p> -->
+</body>
+
+</html>

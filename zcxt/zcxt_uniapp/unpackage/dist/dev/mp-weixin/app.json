@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/other/login",
+    "pages/student/index",
+    "pages/admin/index",
+    "pages/student/guide",
+    "pages/student/add",
+    "pages/student/me"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "color": "#ffffff",
+    "selectedColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/student/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/student/add",
+        "text": "新增"
+      },
+      {
+        "pagePath": "pages/student/me",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

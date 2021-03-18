@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "评优项审核",
+  "usingComponents": {
+    "u-steps": "/uview-ui/components/u-steps/u-steps",
+    "u-card": "/uview-ui/components/u-card/u-card",
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-cell-group": "/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell-item": "/uview-ui/components/u-cell-item/u-cell-item",
+    "u-field": "/uview-ui/components/u-field/u-field",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-number-box": "/uview-ui/components/u-number-box/u-number-box",
+    "u-upload": "/uview-ui/components/u-upload/u-upload",
+    "index-bar": "/components/custom/index-bar",
+    "tui-icon": "/components/thorui/icon/icon",
+    "tui-button": "/components/thorui/button/button"
+  }
+}

@@ -1,0 +1,1 @@
+<view><tui-tabbar vue-id="5377cbf1-1" tabBar="{{barConf}}" hump="{{true}}" current="{{select}}" unlined="{{false}}" data-event-opts="{{[['^click',[['tabbarSwitch']]]]}}" bind:click="__e" bind:__l="__l"></tui-tabbar></view>
