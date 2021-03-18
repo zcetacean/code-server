@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "评优项审核",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#108ee9",
+  "usingComponents": {
+    "index-bar": "/components/custom/index-bar",
+    "tui-icon": "/components/thorui/icon/icon",
+    "tui-button": "/components/thorui/button/button",
+    "bottom-box": "/components/custom/bottom-box"
+  }
+}

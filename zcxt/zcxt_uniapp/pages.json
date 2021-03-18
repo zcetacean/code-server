@@ -1,0 +1,64 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/other/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},{
+			"path": "pages/student/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/admin/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/student/guide",
+			"style": {
+				"navigationBarTitleText": "使用说明"
+			}
+		}, {
+			"path": "pages/student/add",
+			"style": {
+				"navigationBarTitleText": "评优项审核"
+			}
+		}, {
+			"path": "pages/student/me",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"tabBar": {
+		"borderStyle": "white",
+		//"height": "1px",
+		"backgroundColor": "#ffffff",
+		"color": "#ffffff",
+		"selectedColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/student/index",
+			"text": "首页"
+		},{
+			"pagePath": "pages/student/add",
+			"text": "新增"
+		}, {
+			"pagePath": "pages/student/me",
+			"text": "个人中心"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	}
+}

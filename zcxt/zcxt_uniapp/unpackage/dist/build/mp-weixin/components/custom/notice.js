@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/custom/notice"],{"0b55":function(n,t,e){"use strict";var o;e.d(t,"b",(function(){return u})),e.d(t,"c",(function(){return c})),e.d(t,"a",(function(){return o}));var u=function(){var n=this,t=n.$createElement;n._self._c;n._isMounted||(n.e0=function(){n.showModal=!0},n.e1=function(){n.showModal=!1})},c=[]},"14c4":function(n,t,e){"use strict";var o=e("a57f"),u=e.n(o);u.a},"4c6e":function(n,t,e){"use strict";e.r(t);var o=e("f111"),u=e.n(o);for(var c in o)"default"!==c&&function(n){e.d(t,n,(function(){return o[n]}))}(c);t["default"]=u.a},a57f:function(n,t,e){},d55d:function(n,t,e){"use strict";e.r(t);var o=e("0b55"),u=e("4c6e");for(var c in u)"default"!==c&&function(n){e.d(t,n,(function(){return u[n]}))}(c);e("14c4");var i,r=e("f0c5"),a=Object(r["a"])(u["default"],o["b"],o["c"],!1,null,null,null,!1,o["a"],i);t["default"]=a.exports},f111:function(n,t,e){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var o=function(){e.e("components/thorui/icon/icon").then(function(){return resolve(e("df58"))}.bind(null,e)).catch(e.oe)},u=function(){e.e("components/thorui/modal/modal").then(function(){return resolve(e("7c9f"))}.bind(null,e)).catch(e.oe)},c=function(){e.e("components/thorui/button/button").then(function(){return resolve(e("1db4"))}.bind(null,e)).catch(e.oe)},i={name:"notice",data:function(){return{text:"",showModal:!1}},components:{tuiModal:u,tuiButton:c,tuiIcon:o},props:{message:{type:String}},mounted:function(){this.getTest()},methods:{getTest:function(){this.text="欢迎使用广东技术师范大学综测系统小程序！"}}};t.default=i}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/custom/notice-create-component',
+    {
+        'components/custom/notice-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("d55d"))
+        })
+    },
+    [['components/custom/notice-create-component']]
+]);

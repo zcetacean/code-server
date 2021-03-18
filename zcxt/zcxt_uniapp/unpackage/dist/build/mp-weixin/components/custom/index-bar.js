@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/custom/index-bar"],{"0ae9":function(t,a,e){"use strict";(function(t){Object.defineProperty(a,"__esModule",{value:!0}),a.default=void 0;var n=function(){e.e("components/thorui/tui-tabbar/tui-tabbar").then(function(){return resolve(e("6492"))}.bind(null,e)).catch(e.oe)},c={name:"indexBar",components:{tuiTabbar:n},data:function(){return{barConf:[{pagePath:"/pages/user/index",text:"综合评测",iconPath:"/static/custom/tabbarImg/index0.png",selectedIconPath:"/static/custom/tabbarImg/index1.png"},{pagePath:"/pages/user/code",text:"评优项审核",hump:!0,iconPath:"/static/custom/tabbarImg/code.png",selectedIconPath:"/static/custom/tabbarImg/code.png"},{pagePath:"/pages/user/me",text:"个人中心",iconPath:"/static/custom/tabbarImg/me0.png",selectedIconPath:"/static/custom/tabbarImg/me1.png"}]}},props:{select:{type:Number}},methods:{tabbarSwitch:function(a){var e=this;"/pages/user/code"===e.barConf[a.index].pagePath?t.navigateTo({url:e.barConf[a.index].pagePath}):t.switchTab({url:e.barConf[a.index].pagePath})}}};a.default=c}).call(this,e("543d")["default"])},a10d:function(t,a,e){"use strict";e.r(a);var n=e("0ae9"),c=e.n(n);for(var r in n)"default"!==r&&function(t){e.d(a,t,(function(){return n[t]}))}(r);a["default"]=c.a},c562:function(t,a,e){"use strict";var n;e.d(a,"b",(function(){return c})),e.d(a,"c",(function(){return r})),e.d(a,"a",(function(){return n}));var c=function(){var t=this,a=t.$createElement;t._self._c},r=[]},cd19:function(t,a,e){"use strict";e.r(a);var n=e("c562"),c=e("a10d");for(var r in c)"default"!==r&&function(t){e.d(a,t,(function(){return c[t]}))}(r);var u,o=e("f0c5"),i=Object(o["a"])(c["default"],n["b"],n["c"],!1,null,null,null,!1,n["a"],u);a["default"]=i.exports}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/custom/index-bar-create-component',
+    {
+        'components/custom/index-bar-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("cd19"))
+        })
+    },
+    [['components/custom/index-bar-create-component']]
+]);

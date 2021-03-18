@@ -1,0 +1,1 @@
+<view><u-tabbar vue-id="5377cbf1-1" list="{{barConf}}" active-color="#2979ff" height="60px" icon-size="50" value="{{select}}" data-event-opts="{{[['^change',[['tabbarSwitch']]],['^input',[['__set_model',['','select','$event',[]]]]]]}}" bind:change="__e" bind:input="__e" bind:__l="__l"></u-tabbar></view>

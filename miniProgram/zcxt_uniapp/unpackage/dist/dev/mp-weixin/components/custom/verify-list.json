@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "tui-icon": "/components/thorui/icon/icon",
+    "tui-rate": "/components/thorui/rate/rate",
+    "tui-card": "/components/thorui/card/card",
+    "tui-modal": "/components/thorui/modal/modal",
+    "tui-button": "/components/thorui/button/button"
+  }
+}

@@ -1,0 +1,5 @@
+#minioOSS部署
+docker run -p 3788:9000 --name my_minio -e "MINIO_ACCESS_KEY=AKIAIOSFODCC7EXAMPLE" -e "MINIO_SECRET_KEY=wJalrXUtnFEMI/K88DENG/bPxRfiCYEXAMPLELOY" -v /home/minio/data:/data -v /home/minio/conf:/root/.minio minio/minio server /data
+
+docker run --restart=always -p 3002:9000 --name my_minio -e "MINIO_ACCESS_KEY=AKIAIOSFODCC7EXAMPLE" 
+-e "MINIO_SECRET_KEY=wJalrXUtnFEMI/K88DENG/bPxRfiCYEXAMPLELOY" -v /home/minio/data:/data -v /home/minio/conf:/root/.minio minio/minio server /data

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "index-bar": "/components/custom/index-bar",
+    "notice": "/components/custom/notice",
+    "tui-tabs": "/components/thorui/tui-tabs/tui-tabs",
+    "verify-list": "/components/custom/verifyList",
+    "top-box": "/components/custom/top-box"
+  }
+}

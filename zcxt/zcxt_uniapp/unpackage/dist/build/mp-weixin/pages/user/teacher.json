@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tui-icon": "/components/thorui/icon/icon",
+    "tui-tabs": "/components/thorui/tui-tabs/tui-tabs",
+    "verify-list": "/components/custom/verifyList",
+    "top-box": "/components/custom/top-box",
+    "tui-list-view": "/components/thorui/list-view/list-view",
+    "tui-list-cell": "/components/thorui/list-cell/list-cell",
+    "tui-modal": "/components/thorui/modal/modal",
+    "tui-button": "/components/thorui/button/button"
+  }
+}

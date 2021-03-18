@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-notice-bar": "/uview-ui/components/u-notice-bar/u-notice-bar",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "index-bar": "/components/custom/index-bar",
+    "verify-list": "/components/custom/verify-list",
+    "top-box": "/components/custom/top-box"
+  }
+}
